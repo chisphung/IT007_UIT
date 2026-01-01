@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"e58598b34be6a105","x":39,"y":42,"width":400,"height":400,"type":"file","file":"Hệ điều hành/Summarization/Chương 1/2- Hoạt động bên trong máy tính.md"},
+		{"id":"be81e23a888269e0","x":260,"y":-860,"width":400,"height":400,"type":"file","file":"Hệ điều hành/Summarization/Chương 1/0 - Main.md"},
+		{"id":"6a38ac6b62fe4877","x":650,"y":-1240,"width":250,"height":234,"type":"text","text":"Là chương trình trung gian giữa phần cứng máy tính và người dùng, có chức năng điều khiển và phối hợp việc sử dụng phần cứng và cung cấp cacs dịch vụ cơ bản cho các ứng dụng"},
+		{"id":"be1211dd86877af7","x":940,"y":-920,"width":250,"height":207,"type":"text","text":"- Giúp người dùng dễ dàng sử dụng hệ thống\n\t- Quản lý và cấp phát tài nguyên hệ thống một cách hiệu quả"},
+		{"id":"a0e1b8458b29be42","x":-400,"y":-580,"width":400,"height":400,"type":"file","file":"Hệ điều hành/Summarization/Chương 1/1- Cấu trúc hệ thống.md"},
+		{"id":"90db7b2f6baa67a7","x":914,"y":-306,"width":400,"height":400,"type":"file","file":"Hệ điều hành/Summarization/Chương 1/2- Hoạt động bên trong máy tính.md"},
+		{"id":"7666067098e97ebf","x":1602,"y":-296,"width":338,"height":60,"type":"text","text":"## Chương trình hệ thống "},
+		{"id":"4e0d8688cc16fc96","x":1570,"y":-110,"width":390,"height":60,"type":"text","text":"## Chương trình ứng dụng"},
+		{"id":"3c2dfa6f14f3c2f3","x":1572,"y":47,"width":250,"height":60,"type":"text","text":"## Middleware"}
+	],
+	"edges":[
+		{"id":"9d731df38198ee36","fromNode":"6a38ac6b62fe4877","fromSide":"bottom","toNode":"be81e23a888269e0","toSide":"top","label":"Định nghĩa"},
+		{"id":"fb1bd88b0d8817cc","fromNode":"be1211dd86877af7","fromSide":"bottom","toNode":"be81e23a888269e0","toSide":"right"},
+		{"id":"3921bc3352066245","fromNode":"a0e1b8458b29be42","fromSide":"right","toNode":"be81e23a888269e0","toSide":"left","label":"Bao gồm"},
+		{"id":"324d7aa3bab3f9c4","fromNode":"6a38ac6b62fe4877","fromSide":"bottom","toNode":"be81e23a888269e0","toSide":"top"},
+		{"id":"dadda7e03a8ab87f","fromNode":"be81e23a888269e0","fromSide":"bottom","toNode":"90db7b2f6baa67a7","toSide":"top"},
+		{"id":"a104a73512170f8b","fromNode":"90db7b2f6baa67a7","fromSide":"right","toNode":"7666067098e97ebf","toSide":"left"},
+		{"id":"2ccc4b1351fc7ae6","fromNode":"90db7b2f6baa67a7","fromSide":"right","toNode":"4e0d8688cc16fc96","toSide":"left"},
+		{"id":"807b2064b8013310","fromNode":"90db7b2f6baa67a7","fromSide":"right","toNode":"3c2dfa6f14f3c2f3","toSide":"left"},
+		{"id":"3bc29e0253846afc","fromNode":"a0e1b8458b29be42","fromSide":"bottom","toNode":"e58598b34be6a105","toSide":"top"}
+	]
+}

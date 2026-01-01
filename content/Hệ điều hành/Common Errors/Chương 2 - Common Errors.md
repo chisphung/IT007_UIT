@@ -1,0 +1,78 @@
+## Các thành phần của hệ điều hành 
+- Quản lý tiến trình 
+	- Để hoàn thành công việc, một tiến trình cần: 
+		- CPU 
+		- Bộ nhớ
+		- File
+		- Thiết bị IO 
+	- Các nhiệm vụ chính: 
+		- Tạo và hủy tiến trình
+		- Tạm dừng/thực thi tiến trình
+		- Cung cấp các cơ chế 
+			- Đồng bộ hoạt động các tiến trình
+			- Giao tiếp giữa các tiến trình
+			- Khống chế tắc nghẽn
+- Quản lý bộ nhớ 
+	- Các nhiệm vụ chính: 
+		- Theo dõi, quản lý tàn nguyên đã cấp phát
+		- Quyết định sẽ nạp chương trình nào sẽ nạp khi có vùng nhớ trống
+		- Cấp phát và thu hồi các vùng nhớ khi cần thiết
+- Quản lý file 
+	- Các dịch vụ chính: 
+		- Tạo xóa file/thư mục
+		- Các thao tác xử lý file/thư mục
+		- Ánh  xạ file/thư mục vào thiết bị thứ cấp tương ứng
+		- Sao lưu và phục hồi dữ liệu
+- Quản lý hệ thống IO
+	- Che dấu sự khác biệt của IO trước người dùng 
+	- Cơ chế chính: 
+		- Cơ chế buffering, caching, spooling
+		- Cung cấp giao diện chung đến các chương trình điều khiển thiết bị
+		- Bộ điều khiển các thiết bị phần cứng
+- Quản lý hệ thống lưu trữ thứ cấp 
+	- Nhiệm vụ chính: 
+		- Quản lý không gian trống trên đĩa 
+		- Cấp phát không gian lưu trữ 
+		- Định thời hoạt động cho đĩa
+- Hệ thống bảo vệ
+	- Kiểm soát người dùng đăng nhập/đăng xuất và sử dụng hệ thống 
+	- Bảo đảm những user, process chỉ được phép sử dụng các tài nguyên dành cho nó 
+	- Phân định sự truy cập tài nguyên hợp pháp/bất hợp pháp
+	- Phương tiện thi hành các chính sách (bảo vệ dữ liệu ai đối với ai)
+- Hệ thống thông dịch lệnh
+	- Các lệnh chủ yếu: 
+		- Tạo, hủy và quản lý các tiến trình hệ thống 
+		- Kiểm soát IO
+		- Quản lý bộ lưu trữ thứ cấp
+		- Quản lý bộ nhớ chính
+		- Truy cập hệ thống file và cơ chế bảo mật
+## Các dịch vụ hệ điều hành cung cấp: 
+- Thực thi chương trình 
+- Thực hiện các thao tác IO theo yêu cầu của chương trình 
+- Các thao tác trên hệ thống file 
+- Trao đổi thông tin liên lạc giữ các tiến trình thông qua: 
+	- Message passing 
+	- Shared memory 
+- Phát hiện lỗi 
+	- Trong CPU, bộ nhớ, các thiết bị IO 
+	- Do chương trình: chia cho 0, truy cập đến địa chỉ bộ nhớ không cho phép 
+- Các dịch vụ giúp tăng hiệu suất hệ thống: 
+	- Cấp phát tài nguyên
+		- Tài nguyên: CPU, bộ nhớ chính, ổ đĩa
+		- OS có các routine tương ứng
+	- Kế toán
+		- Nhằm lưu vết user để tính phí hoặc đơn giản để thống kê
+- Bảo vệ (protection):
+	- Hai tiến trình khác nhau không được ảnh hưởng nhau 
+	- Kiểm soát các truy xuất tài nguyên của hệ thống
+- An ninh (security):
+	- Chỉ các user được phép truy cập hệ thống mới truy cập được tài nguyên của hệ thống
+## Lời gọi hệ thống 
+- Dùng để giao tiếp giữa tiến trình và hệ điều hành 
+- Cung cấp interface giữa tiến trình và hệ điều hành
+- Thông thường ở dạng nhị phân hoặc giống như các lệnh hợp ngữ 
+- Trong các ngôn ngữ cấp cao, một số thư viện lập trình được xây dựng dựa trên thư viện hệ thống 
+- Ba phương pháp truyền tham số khi sử dụng system call: 
+	- Qua thanh ghi
+	- Qua một vùng nhớ, địa chỉ của vùng nhớ được gửi đến hệ điều hành qua thanh ghi 
+	- Qua stack 

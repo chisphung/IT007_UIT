@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"cc14f15acb8ada16","type":"text","text":"## Phương pháp giải quyết\n- Ngăn deadlock \n- Tránh deadlock \n- Cho phép vào deadlock rồi giải \n- Bỏ qua deadlock","x":210,"y":354,"width":430,"height":166},
+		{"id":"33b7680809c94260","type":"text","text":"**Ngăn deadlock**: Không khả thi do bản chất tài nguyên không chia được cho nhiều tiến trình \nVD: Máy in chỉ một máy dùng được, nhưng nếu cố chia ra  --> Lỗi --> non practical\n","x":820,"y":0,"width":429,"height":139},
+		{"id":"51de1504baca4a36","type":"text","text":"**Hold and wait:**\n- Cách 1: Yêu cầu dự đoán số tài nguyên cần thiết 1 lần \n- Khi yêu cầu tài nguyên, tiến trình không được giữ tài nguyên này. Nếu không có thì phải trả lại trước khi yêu cầu\n--> Khó dự đoán được","x":808,"y":220,"width":552,"height":134},
+		{"id":"d864f26424a7e96e","type":"text","text":"**Ngăn no preemption**\n- Hệ thống lấy lại mọi tài nguyên mà A đang giữ, A chỉ bắt đầu lại khi có đủ các tài nguyên nó cần \n- Hoặc hệ thống xem xét tài nguyên A yêu cầu\n\t- Nếu tài nguyên đang giữ bởi tiến trình khác đang đợi thêm \n\t- Ngăn chu trình đợi: gán một thứ tự co tất cả các tài nguyên trong hệ thống","x":831,"y":450,"width":469,"height":230},
+		{"id":"40e0145c7a66ca1e","type":"text","text":"**Tránh deadlock**\n- Cẩm thận kiểm tra xem có deadlock không trước khi cấp phát bằng cách chạy một giải thuật","x":794,"y":808,"width":250,"height":192},
+		{"id":"2a3b2cc0dd52d9d5","type":"text","text":"## Điều kiện xảy ra\n- Mutual exclusion \n- Hold and wait \n- No preemption (độc quyền)\n- Chu trình đợi (circular wait)","x":-599,"y":354,"width":503,"height":180},
+		{"id":"4b5339a3cdc0affd","type":"text","text":"# Deadlock","x":-1040,"y":390,"width":250,"height":60},
+		{"id":"0968f695385a363a","x":1150,"y":864,"width":250,"height":60,"type":"text","text":"## Thuật toán"},
+		{"id":"92775f2d1b3b7254","x":1495,"y":758,"width":325,"height":82,"type":"text","text":"### An toàn \n- Có ít nhất một chuỗi an toàn"},
+		{"id":"bb8a661678bd007e","type":"text","text":"### Không an toàn\n- Không có chuỗi an toàn","x":1495,"y":904,"width":325,"height":82},
+		{"id":"27c2438004bf1431","x":1006,"y":1218,"width":250,"height":60,"type":"text","text":"## Banker algo\n"},
+		{"id":"43a82a7fb8c010eb","type":"text","text":"## Request algo\n","x":1300,"y":1218,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"36e96bcedf0d31d6","fromNode":"cc14f15acb8ada16","fromSide":"right","toNode":"33b7680809c94260","toSide":"left"},
+		{"id":"7b820fc5eb1c3845","fromNode":"cc14f15acb8ada16","fromSide":"right","toNode":"51de1504baca4a36","toSide":"left"},
+		{"id":"9729745af50eb129","fromNode":"cc14f15acb8ada16","fromSide":"right","toNode":"d864f26424a7e96e","toSide":"left"},
+		{"id":"0adca510b7351257","fromNode":"cc14f15acb8ada16","fromSide":"right","toNode":"40e0145c7a66ca1e","toSide":"left"},
+		{"id":"20667142820f91b7","fromNode":"2a3b2cc0dd52d9d5","fromSide":"right","toNode":"cc14f15acb8ada16","toSide":"left"},
+		{"id":"30615734e7c763d9","fromNode":"4b5339a3cdc0affd","fromSide":"right","toNode":"2a3b2cc0dd52d9d5","toSide":"left"},
+		{"id":"1c17a8528ba28874","fromNode":"40e0145c7a66ca1e","fromSide":"right","toNode":"0968f695385a363a","toSide":"left"},
+		{"id":"9054863a1358cf2f","fromNode":"0968f695385a363a","fromSide":"right","toNode":"92775f2d1b3b7254","toSide":"left"},
+		{"id":"072776910e86d182","fromNode":"0968f695385a363a","fromSide":"right","toNode":"bb8a661678bd007e","toSide":"left"},
+		{"id":"d903c5bd66adc1a2","fromNode":"0968f695385a363a","fromSide":"bottom","toNode":"27c2438004bf1431","toSide":"top"},
+		{"id":"eeecd179116d7fc1","fromNode":"0968f695385a363a","fromSide":"bottom","toNode":"43a82a7fb8c010eb","toSide":"top"}
+	]
+}
