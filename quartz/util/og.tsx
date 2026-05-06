@@ -89,10 +89,43 @@ export async function fetchTtf(
   }
 
   // Get css file from google fonts
-  const cssResponse = await fetch(
-    `https://fonts.googleapis.com/css2?family=${fontName}:wght@${weight}`,
-  )
-  const css = await cssResponse.text()
+  let cssResponse: Response
+  try {
+    cssResponse = await fetch(
+      `https://fonts.googleapis.com/css2?family=${fontName}:wght@${weight}`,
+    )
+  } catch (error) {
+    console.log(
+      styleText(
+        "yellow",
+        `\nWarning: Failed to fetch font CSS for ${rawFontName} ${weight} (network error)`,
+      ),
+    )
+    return
+  }
+
+  if (!cssResponse.ok) {
+    console.log(
+      styleText(
+        "yellow",
+        `\nWarning: Failed to fetch font CSS for ${rawFontName} ${weight}, got ${cssResponse.status} ${cssResponse.statusText}`,
+      ),
+    )
+    return
+  }
+
+  let css: string
+  try {
+    css = await cssResponse.text()
+  } catch (error) {
+    console.log(
+      styleText(
+        "yellow",
+        `\nWarning: Failed to read font CSS for ${rawFontName} ${weight}`,
+      ),
+    )
+    return
+  }
 
   // Extract .ttf url from css file
   const urlRegex = /url\((https:\/\/fonts.gstatic.com\/s\/.*?.ttf)\)/g
@@ -109,7 +142,29 @@ export async function fetchTtf(
   }
 
   // fontData is an ArrayBuffer containing the .ttf file data
-  const fontResponse = await fetch(match[1])
+  let fontResponse: Response
+  try {
+    fontResponse = await fetch(match[1])
+  } catch (error) {
+    console.log(
+      styleText(
+        "yellow",
+        `\nWarning: Failed to fetch font file for ${rawFontName} ${weight} (network error)`,
+      ),
+    )
+    return
+  }
+
+  if (!fontResponse.ok) {
+    console.log(
+      styleText(
+        "yellow",
+        `\nWarning: Failed to fetch font file for ${rawFontName} ${weight}, got ${fontResponse.status} ${fontResponse.statusText}`,
+      ),
+    )
+    return
+  }
+
   const fontData = Buffer.from(await fontResponse.arrayBuffer())
   await fs.mkdir(cacheDir, { recursive: true })
   await fs.writeFile(cachePath, fontData)

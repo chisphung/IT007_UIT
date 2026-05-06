@@ -1,0 +1,13 @@
+**Many countries spend a lot of money preparing competitors to take part in major sports competitions such as the Olympics, the football World cup etc. It would be better to spend this money encouraging children to take up sport from a young age. To what extent do you agree or disagree?**
+
+It is commonly perceived that there are a number of nations funding elite athletes in major sports. Some believe that this would be better to spend money to develop children's sports skills. From my own perspective, I partially agree with the statement, as I believe that this is a great opportunity for the countries in terms of expressing countries' culture and the inheritance from professional athletes for the young. However, it also needs to consider a balance between funding this and investing in grassroots sports to ensure the developments of the new generation.
+
+The primary reason spending money preparing professional athletes for major sports competitions is necessary is that this provides valued opportunities for nations. It is clear that allowing competitors from different countries to perform skilled sports in international arenas is an important factor to advertise athletes' home countries to international audiences. For example, there are a number of skilled competitors from developing or less well-known nations; therefore, the Olympics or the football World Cup is a great chance to showcase their culture and heritage . Additionally, the young also could leverage the winners from major sports as a source of mentors as role models who leave a lasting legacy to the later generations.
+
+Although investing in professional players for international sports programs is vital, providing development opportunities for the young is also a key factor. Indeed, grassroots sports are clearly necessary to nurture the potential young generations, which provides appropriate environments to develop new professional teams. This also shows that heavily investing in elite athletes should also carefully consider the balance between that and grassroots sports activities because professional skills grow from amateur ones, making the initial period of the skills development more necessary.
+
+In conclusion, spending money in professional training for elite athletes is an important factor in showcasing countries' features to international arenas. However, governments might need to focus on the young generation as a chance to develop new professional players.
+
+  
+  
+**

@@ -1,0 +1,14 @@
+**Some people think that the family is the most powerful influence on a child's development. Others, however, believe that other influences (such as television, friends, music, etc.) have a bigger effect on a child today. Discuss both these views and give your own opinion.**
+20:18 
+access la noun thi dung to
+access la verb thi khong dung prep
+
+It is widely perceived that the family has the most vital influence on a child's development. However, some believe that other factors including television, friends or music have a greater impact on their life. From my own perspective, I believe that the internet content has a bigger effect on a child.
+
+On the one hand, some people might think that a child's development could be greatly influenced by the family because children spend most of their time with parents during the pre-school period. It is clear that a child's cognitive development and personal characteristics are largely shaped before joining the school, which mostly depends on their parents' teaching strategies and family members' behaviors. For example, a recent scientific paper reported that children tend to mimic their family members' actions, emotions and daily habits, which serves as a foundation of characteristics in their future life. 
+
+However, in the modern society, a large number of parents dedicate most of their time ~~in work offices~~  to their careers and often leave their children occupied with a smartphone or tablet. With the advancement of technology, the young can easily access to a massive amount of content, ranging from music, TV shows, and educational videos. This inevitably leads to a ~~great~~ profound influence of internet content on youngsters, shaping their  modern characteristics  and worldviews that their parents hardly possess. Take a child from Generation Alpha as an example, they usually consume short videos from Youtube or Tiktok; ~~therefore, it is not difficult to catch a video made by a juvenile child with a trending dance.~~ Consequently, it is quite common to see young children effortlessly performing viral dances or mimicking internet trends they learned entirely online
+
+In conclusion, although the family shapes children's characteristics at the very first stage of their life, they also receive a huge impact from the development of technologies with online content. 
+-->
+In conclusion, although the family undoubtedly shapes a child's core characteristics during the very first stage of life, I believe that outside influences have ultimately become more powerful. As children grow, the constant exposure to modern technology and online media leaves a far greater and more lasting impact on their development today.

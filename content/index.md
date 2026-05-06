@@ -4,13 +4,18 @@ title: Welcome
 
 # 🌟 Welcome to My Digital Garden
 
-Chào mừng bạn đến với kho ghi chú của mình! Đây là nơi chia sẻ kiến thức và tài liệu học tập.
+Chào mừng bạn đến với kho ghi chú của mình! Đây là nơi tổng hợp tài liệu học tập và ghi chú ôn luyện.
+
+---
+
+## 🧭 Bản đồ kiến thức (Graph)
+
+- 📘 [[Hệ điều hành/Graph|Hệ điều hành Graph]]
+- 🧠 [[IELTS Graph]]
 
 ---
 
 ## 📚 Hệ Điều Hành (Operating Systems)
-
-Tài liệu học tập môn Hệ điều hành được tổ chức theo từng chương:
 
 ### 📖 Lý Thuyết
 
@@ -27,11 +32,27 @@ Tài liệu học tập môn Hệ điều hành được tổ chức theo từng
 
 ### 📁 Thư Mục
 
-- 🔬 [[Hệ điều hành/Thực hành|Thực hành]] - Bài tập thực hành
-- 📋 [[Hệ điều hành/Summarization|Summarization]] - Tóm tắt kiến thức
-- ❌ [[Hệ điều hành/Common Errors|Common Errors]] - Lỗi thường gặp
-- 🎴 [[Hệ điều hành/Flashcards|Flashcards]] - Thẻ ghi nhớ
-- 📄 [[Hệ điều hành/Đề thi|Đề thi]] - Đề thi tham khảo
+- 🔬 [[Hệ điều hành/Thực hành|Thực hành]]
+- 📋 [[Hệ điều hành/Summarization|Summarization]]
+- ❌ [[Hệ điều hành/Common Errors|Common Errors]]
+- 🎴 [[Hệ điều hành/Flashcards|Flashcards]]
+- 📄 [[Hệ điều hành/Đề thi|Đề thi]]
+
+---
+
+## 📝 IELTS
+
+### Kỹ năng chính
+
+- [[IELTS/Listening]]
+- [[IELTS/Reading]]
+- [[IELTS/Speaking]]
+- [[IELTS/Writing]]
+
+### Nền tảng & từ vựng
+
+- [[IELTS/Grammar]]
+- [[IELTS/Từ vựng đắt]]
 
 ---
 
@@ -39,4 +60,4 @@ Tài liệu học tập môn Hệ điều hành được tổ chức theo từng
 
 ## Disclaimer
 
-- Đây là tài liệu mình tự note lại, một số thông tin có thể sai sót, nếu bạn phát hiện lỗi hoặc cũng dùng obsidian để viết thì có thể đóng góp bằng cách tạo PR ở github
+- Đây là tài liệu mình tự note lại, một số thông tin có thể sai sót. Nếu bạn phát hiện lỗi hoặc cũng dùng Obsidian để viết thì có thể đóng góp bằng cách tạo PR ở GitHub.
