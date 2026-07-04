@@ -204,7 +204,8 @@ This makes it relevant to the broader line of work that treats multimodal intera
 TCMax does not explicitly decompose information into:
 
 $$
-R,\quad U_1,\quad U_2,\quad S  $$
+R,\quad U_1,\quad U_2,\quad S  
+$$
 
 Unlike PID-based works, it does not separately measure redundancy, uniqueness, and synergy.
 
