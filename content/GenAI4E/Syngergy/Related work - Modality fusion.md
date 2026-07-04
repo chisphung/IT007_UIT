@@ -192,7 +192,8 @@ This paper is useful because it frames **modality competition** as an informatio
 It argues that improving multimodal learning is not only about adding fusion layers or balancing gradients. Instead, the objective should encourage dependency among:
 
 $$
-\text{modality 1 feature},\quad \text{modality 2 feature},\quad \text{label}  $$
+\text{modality 1 feature},\quad \text{modality 2 feature},\quad \text{label}  
+$$
 
 This makes it relevant to the broader line of work that treats multimodal interaction as an information structure.
 
